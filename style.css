@@ -30,11 +30,13 @@ a{
 
 body{
     background-color: #181012;
+    color: white;
     font-family: "Inter", sans-serif;
     min-height: 2500px;
-
     margin: 0;
-    padding: 0;
+    padding-top: 68px;
+
+
 }
 
 header{
