@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/*FONTE BEBAS :font-family: "Bebas Neue", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+
+
+/* FONTE MONTSERRAT :font-family: "Montserrat", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap')
+
+/* FONTE INTER :font-family: "Inter", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+:root{
+    --font-teko: "Teko", sans-serif;
+    --font-mont: "Montserrat", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #181012;
+    font-family: "Inter", sans-serif;
+    min-height: 2500px;
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1F1517;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.logo a{
+    color: white;
+    font-size: 32px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+
+.navigation .nav-list{
+    display: flex;
+    max-width: 838px;
+    gap: 24px;
+    align-items: center;
+
+}
+
+.navigation .nav-list .nav-itens{
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    transition: all 0.3s ease;
+}
+
+.navigation .nav-list .nav-itens:hover{
+    color: #FFF2E7;
+}
+
+.nav-git{
+    color: white;
+    font-weight: normal;
+    font-weight: 600;
+}
