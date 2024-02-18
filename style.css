@@ -182,5 +182,34 @@ main .hero{
 **********RECEITAS**********
 **********/
 
+.header-receitas{
+    padding: 64px 13%;
+    max-width: 1120px;
+    max-height: 87px;
+}
+
+.header-receitas span{
+    color: #A45A49;
+    font-family: var(--font-epilogue);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header-receitas h1{
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: var(--font-mont);
+    line-height: 4rem;
+    margin-top: 0px;
+}
+
+
+.header-receitas h2{
+    font-size: 20px;
+    font-weight: lighter;
+    max-width: 100%;
+    margin-top: -2rem;
+}
 
 
