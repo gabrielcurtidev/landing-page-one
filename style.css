@@ -217,15 +217,25 @@ main .hero{
 }
 
 .container-receitas{
-    background-color: #241A1C;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    border-radius: 12px;
-    margin-left: 13%;
+    flex-wrap: wrap;
+
+    background-color: #5e3d4352;
     padding: 20px;
-    width: 556px;
+    width: 1440px;
+    margin: auto;
     
+}
+
+.container-receitas .receita{
+    background-color: #241A1C;
+    padding: 16px;
+    border-radius: 12px;
+    height: 100%;
+    width: 47%;
+    margin: 12px 0;
 }
 
 .container-receitas .receita h6{
