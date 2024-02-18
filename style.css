@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/*FONTE EPILOGUE :font-family: "Epilogue", sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap')
+
 /*FONTE BEBAS :font-family: "Bebas Neue", sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
 
@@ -16,6 +19,7 @@
 }
 
 :root{
+    --font-epilogue: "Epilogue", sans-serif;
     --font-teko: "Teko", sans-serif;
     --font-mont: "Montserrat", sans-serif;
 }
@@ -29,15 +33,18 @@ a{
 }
 
 body{
-    background-color: #181012;
+    background-color: #1F1517;
     color: white;
     font-family: "Inter", sans-serif;
-    min-height: 2500px;
     margin: 0;
     padding-top: 68px;
 
 
 }
+
+/*********
+**********HEADER**********
+**********/
 
 header{
     background-color: #1F1517;
@@ -88,3 +95,92 @@ header{
     font-weight: normal;
     font-weight: 600;
 }
+
+/*********
+**********HERO**********
+**********/
+
+main .hero{
+    background-color: #181012;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    max-height: 386px;
+    gap: 6em;
+    padding: 0px 13%;
+    margin: auto;
+
+}
+
+.header-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 480px;
+
+    margin: 0;
+    
+}
+
+.header-hero span{
+    color: #A45A49;
+    font-family: var(--font-epilogue);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header-hero h1{
+    font-size: 58px;
+    font-weight: bolder;
+    font-family: var(--font-mont);
+    line-height: 4rem;
+    margin-top: 10px;
+}
+
+.header-hero hr{
+    border: none;
+    border-bottom: 2px solid #A45A49;
+    width: 235px;
+    margin: 0;
+    margin-top: -2rem;
+}
+
+.header-hero h2{
+    font-size: 20px;
+    font-weight: normal;
+    max-width: 100%;
+}
+
+.hero .img-hero{
+    column-count: 4;
+    overflow: clip;
+    max-width: 45%;
+}
+
+.img-hero figure{
+    margin: 10px 0px;
+}
+
+.img-hero figure img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+/*********
+**********BUTTON**********
+**********/
+
+.btn-default{
+    position: absolute;
+    top: 422px;
+    left: 13%; 
+}
+
+/*********
+**********RECEITAS**********
+**********/
+
+
+
