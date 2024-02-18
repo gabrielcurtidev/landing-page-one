@@ -49,6 +49,17 @@
             </div>
         </section>
 
+            <!-- TESTE DE SCRIPT DE EMBARALHAR -->
+        <script class="embaralhar">
+            function shuffleImages() {
+                var container = document.querySelector('.img-hero');
+                for (var i = container.children.length; i >= 0; i--) {
+                    container.appendChild(container.children[Math.random() * i | 0]);
+                }
+            }
+            shuffleImages();
+        </script>
+
         <section class="btn-default">
             <a href=""><img src="assets/Button.svg" alt=""></a>
         </section>
@@ -115,7 +126,6 @@
             <p class="loading-page">Carregue mais receitas...</p>
         </a>
 
-        
     </main>
 
     <footer>
