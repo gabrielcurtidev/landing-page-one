@@ -38,7 +38,7 @@ body{
     font-family: "Inter", sans-serif;
     margin: 0;
     padding-top: 68px;
-
+    box-sizing: border-box;
 
 }
 
@@ -87,7 +87,7 @@ header{
 }
 
 .navigation .nav-list .nav-itens:hover{
-    color: #FFF2E7;
+    color: #ffe8d6;
 }
 
 #git-header{
@@ -178,6 +178,10 @@ main .hero{
     left: 13%; 
 }
 
+.btn-default:hover{
+    opacity: 0.95;
+}
+
 /*********
 **********RECEITAS**********
 **********/
@@ -212,4 +216,58 @@ main .hero{
     margin-top: -2rem;
 }
 
+.container-receitas{
+    background-color: #241A1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 20px 0;
+    width: 556px;
+    
+}
 
+.container-receitas .receita h6{
+    color: #E7A80E;
+    font-size: 12px;
+    margin: 0;
+}
+
+.container-receitas .receita .nome-receita{
+    font-family: var(--font-mont);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 200px;
+}
+
+.container-receitas .receita .av-receita{
+    color: #756A67;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container-receitas .receita p{
+    letter-spacing: 0.8px;
+    font-size: 16px;
+}
+
+.receita-autor{
+    display: flex;
+    align-items: center;
+    margin-left: -70%;
+}
+
+.receita-autor img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.receita-autor .receita-autor-nome{
+    color: #756A67;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 6px;
+}
