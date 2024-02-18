@@ -175,6 +175,7 @@ main .hero{
 **********/
 
 .btn-default{
+    z-index: 0;
     position: absolute;
     top: 422px;
     left: 13%; 
